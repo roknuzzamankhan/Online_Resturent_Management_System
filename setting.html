@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/bootstrap.min.css">
+  <link rel="stylesheet" href="style/nav-section.css">
+  <link rel="stylesheet" href="style/common.css">
+  <script src="https://kit.fontawesome.com/e93aea0e6d.js" crossorigin="anonymous"></script>
+  <title>Our Restaurant</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <!-- Admin_nav_section -->
+    <div class="row ">
+      <div class="col-lg-2 text-white nav-side">
+        <div class="row admin_text">
+          <p class="fs-5 fw-bold text-center">Admin</p>
+        </div>
+        <!-- Nav Section Lists -->
+        <div class="row nav_sections">
+          <a href="dashboard.html" class="d-lg-inline-block text-decoration-none"><i
+              class="fas fa-tachometer-alt"></i>Dashboard</a>
+        </div>
+        <!-- accordion -->
+        <div class="row nav_sections">
+          <div class="accordion accordion-flush p-0 w-100" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  <i class="fas fa-users"></i> Users
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <div>
+                    <a href="add_user.html" class="d-lg-inline-block text-decoration-none"><i
+                        class="fas fa-user-plus"></i>Add User</a><br>
+                  </div>
+
+                  <div>
+                    <a href="manage_users.html" class="d-lg-inline-block text-decoration-none"><i
+                        class="fas fa-user-edit"></i>Manage Users</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- accordion -->
+
+        <div class="row nav_sections">
+          <a href="stores.html" class="d-lg-inline-block text-decoration-none"><i class="fas fa-box-open"></i>Stores</a>
+        </div>
+
+        <div class="row nav_sections">
+          <a href="tables.html" class="d-lg-inline-block text-decoration-none"><i class="fas fa-table"></i>Tables</a>
+        </div>
+
+        <div class="row nav_sections">
+          <a href="category.html" class="d-lg-inline-block text-decoration-none"><i
+              class="fas fa-sitemap"></i>Category</a>
+        </div>
+
+        <!-- accordion -->
+        <div class="row nav_sections">
+          <div class="accordion accordion-flush p-0 w-100" id="accordionFlushExample2">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <div>
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    <i class="fas fa-hamburger"></i> Products
+                  </button>
+                </div>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample2">
+                <div class="accordion-body">
+                  <div>
+                    <a href="add_product.html" class="d-lg-inline-block text-decoration-none"><i
+                        class="fas fa-plus"></i>Add Product</a><br>
+                  </div>
+                  <div>
+                    <a href="manage_products.html" class="d-lg-inline-block text-decoration-none"><i
+                        class="far fa-edit"></i>Manage Products</a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFour">
+                <div>
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                    <i class="fas fa-layer-group"></i> Order
+                  </button>
+                </div>
+              </h2>
+              <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                data-bs-parent="#accordionFlushExample2">
+                <div class="accordion-body">
+                  <div>
+                    <a href="add_order.html" class="d-lg-inline-block text-decoration-none"><i
+                        class="fas fa-plus"></i>Add Order</a><br>
+                  </div>
+                  <div>
+                    <a href="manage_orders.html" class="d-lg-inline-block text-decoration-none"><i
+                        class="far fa-edit"></i>Manage Orders</a>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- accordion -->
+
+        <div class="row nav_sections ">
+          <a href="profile.html" class="d-lg-inline-block text-decoration-none"><i
+              class="fas fa-user-circle"></i>Profile</a>
+        </div>
+
+        <div class="row nav_sections active">
+          <a href="setting.html" class="d-lg-inline-block text-decoration-none"><i class="fas fa-tools"></i>Setting</a>
+        </div>
+
+        <div class="row nav_sections ">
+          <a href="index.html" class="d-lg-inline-block text-decoration-none"><i
+              class="fas fa-sign-out-alt"></i>Logout</a>
+        </div>
+
+      </div>
+
+
+      <!-- Headline -->
+      <div class="col-lg-10">
+        <div class="row header d-flex">
+          <p class="text-white fw-bold fs-4 mt-1 col-lg-10">Manage <span class="fw-normal fs-6">Setting</span></p>
+          <p class="text-lg-end col-lg-2 mt-2 text-white">Home / Setting</p>
+        </div>
+
+
+        <p class="fs-3 mt-2">User Setting</p>
+        <form action="" class="mt-3" autocomplete="on">
+          <label for="input_username" class="form-label">Username</label>
+          <input type="text" class="form-control" id="input_username" placeholder="Username">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email"
+            aria-describedby="emailHelp">
+            <label for="input_firstName" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="input_firstName" placeholder="First Name">
+            <label for="input_lastName" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="input_lastName" placeholder="Last Name">
+            <label for="input_phoneNumber" class="form-label">Phone Number</label>
+            <input type="text" class="form-control" id="input_phoneNumber" placeholder="Phone Number">
+            <p class="mt-3">Gender</p>
+          <div class="form-check d-inline-block me-2">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Male
+            </label>
+          </div>
+          <div class="form-check d-inline-block">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              Female
+            </label>
+          </div><br>
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          <label for="exampleInputPassword2" class="form-label">Confirm Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Confirm Password">
+          <div class="mb-3 form-check ">
+          </div>
+          <button type="submit" class="btn btn-primary">Save Changes</button>
+          <button type="reset" class="btn btn-primary">Reset</button>
+        </form>
+
+      </div>
+    </div>
+  </div>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

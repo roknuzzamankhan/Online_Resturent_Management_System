@@ -1,0 +1,94 @@
+label {
+  margin: 10px 0 0 0;
+}
+
+label[class="form-check-label"] {
+  margin: 0 0 0 0;
+}
+
+.add_order_plus_button, .add_order_cross_button {
+  height: 40px;
+}
+
+.report_chart_box {
+  background-color: white;
+  height: 230px;
+}
+
+.report_chart_box > div {
+  background: white;
+  height: 90%;
+  border: 1px solid rgb(189, 189, 189);
+  position: relative;
+}
+
+.report_chart_box > div::after {
+  content: " ";
+  position: absolute;
+  top: 205px;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: green;
+  transform: rotateX(180deg);
+  -webkit-transform: rotateX(180deg);
+  -moz-transform: rotateX(180deg);
+  -ms-transform: rotateX(180deg);
+  -o-transform: rotateX(180deg);
+  transform-origin: top;
+}
+
+.report_chart_box > div.jan::after {
+  height: 1%;
+}
+
+.report_chart_box > div.feb::after {
+  height: 1%;
+}
+
+.report_chart_box > div.mar::after {
+  height: 1%;
+}
+
+.report_chart_box > div.apr::after {
+  height: 1%;
+}
+
+.report_chart_box > div.may::after {
+  height: 1%;
+}
+
+.report_chart_box > div.jun::after {
+  height: 1%;
+}
+
+.report_chart_box > div.jul::after {
+  height: 1%;
+}
+
+.report_chart_box > div.aug::after {
+  height: 1%;
+}
+
+.report_chart_box > div.sep::after {
+  height: 1%;
+}
+
+.report_chart_box > div.oct::after {
+  height: 1%;
+}
+
+.report_chart_box > div.nov::after {
+  height: 1%;
+}
+
+.report_chart_box > div.dec::after {
+  height: 1%;
+}
+
+.report_chart_box > div p{
+  position: absolute;
+  top: 202px;
+  left: 27%;
+  right: 27%;
+}

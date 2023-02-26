@@ -1,0 +1,57 @@
+.dash {
+  --bs-gutter-x: 0em;
+}
+
+.board {
+  width: 23%;
+  margin-left: 20px;
+  height: 130px;
+}
+
+.more {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.more a {
+  text-decoration: none;
+
+}
+
+.watermark i {
+  font-size: 100px;
+  color: rgba(0, 0, 0, 0.075);
+}
+
+.board-1 {
+  background-color: #00C0EF;
+}
+
+.board-1 .more {
+  background-color: #00A3CB;
+}
+
+.board-2 {
+  background-color: #00A65A;
+}
+
+.board-2 .more {
+  background-color: #008D4D;
+}
+
+.board-3 {
+  background-color: #F39C12;
+}
+
+.board-3 .more {
+  background-color: #CF850F;
+}
+
+.board-4 {
+  background-color: #DD4B39;
+}
+
+.board-4 .more {
+  background-color: #BC4031;
+}
